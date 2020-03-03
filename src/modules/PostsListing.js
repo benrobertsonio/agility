@@ -63,7 +63,7 @@ const Posts = ({ posts }) => {
 const Post = ({ post }) => {
     return(
         <div className="post" key={post.contentID}>
-            <Link to={post.sitemapNode.pagePath}>
+            <Link to={post?.sitemapNode?.pagePath}>
                 <PostImage image={post.customFields.image} />
                 <h2>{post.customFields.title}</h2>
                 <PostExceprt htmlContent={post.customFields.details} />
