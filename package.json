@@ -16,7 +16,7 @@
   "dependencies": {
     "@agility/gatsby-source-agilitycms": "^1.2.6",
     "dotenv": "^8.1.0",
-    "gatsby": "^2.20.14",
+    "gatsby": "^4.25.7",
     "gatsby-plugin-react-helmet": "^3.2.1",
     "gatsby-plugin-sharp": "^2.5.4",
     "react": "^16.13.1",
